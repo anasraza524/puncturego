@@ -1,0 +1,38 @@
+[
+ {
+  "id": 1,
+  "customerId": 1,
+  "areaId": 1,
+  "category": "women",
+  "proofType": "CNIC verification",
+  "proofNo": "42101-1234567-1",
+  "note": "",
+  "status": "Approved",
+  "decisionNote": "Verified",
+  "createdAt": "2026-10-01 10:00"
+ },
+ {
+  "id": 2,
+  "customerId": 3,
+  "areaId": 2,
+  "category": "senior",
+  "proofType": "Senior citizen card",
+  "proofNo": "SCC-88123",
+  "note": "",
+  "status": "Approved",
+  "decisionNote": "Verified",
+  "createdAt": "2026-10-03 10:00"
+ },
+ {
+  "id": 3,
+  "customerId": 4,
+  "areaId": 3,
+  "category": "women",
+  "proofType": "CNIC verification",
+  "proofNo": "42301-2222222-7",
+  "note": "Travels alone at night",
+  "status": "Pending",
+  "decisionNote": "",
+  "createdAt": "2026-11-12 11:30"
+ }
+]

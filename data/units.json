@@ -1,0 +1,79 @@
+[
+ {
+  "id": 1,
+  "plate": "KHI-1001",
+  "vehicle": "Bike",
+  "shopId": 1,
+  "status": "Available"
+ },
+ {
+  "id": 2,
+  "plate": "KHI-1002",
+  "vehicle": "Car",
+  "shopId": 1,
+  "status": "Available"
+ },
+ {
+  "id": 3,
+  "plate": "KHI-1003",
+  "vehicle": "Rickshaw",
+  "shopId": 1,
+  "status": "Available"
+ },
+ {
+  "id": 4,
+  "plate": "KHI-2004",
+  "vehicle": "Car",
+  "shopId": 2,
+  "status": "Available"
+ },
+ {
+  "id": 5,
+  "plate": "KHI-2005",
+  "vehicle": "Bike",
+  "shopId": 2,
+  "status": "Available"
+ },
+ {
+  "id": 6,
+  "plate": "KHI-3006",
+  "vehicle": "Bike",
+  "shopId": 3,
+  "status": "Available"
+ },
+ {
+  "id": 7,
+  "plate": "KHI-3007",
+  "vehicle": "Rickshaw",
+  "shopId": 3,
+  "status": "Available"
+ },
+ {
+  "id": 8,
+  "plate": "KHI-4008",
+  "vehicle": "Bike",
+  "shopId": 4,
+  "status": "Available"
+ },
+ {
+  "id": 9,
+  "plate": "KHI-4009",
+  "vehicle": "Car",
+  "shopId": 4,
+  "status": "Available"
+ },
+ {
+  "id": 10,
+  "plate": "KHI-5010",
+  "vehicle": "Car",
+  "shopId": 5,
+  "status": "Available"
+ },
+ {
+  "id": 11,
+  "plate": "KHI-6011",
+  "vehicle": "Car",
+  "shopId": 6,
+  "status": "Unavailable"
+ }
+]

@@ -1,0 +1,265 @@
+[
+ {
+  "id": 1,
+  "name": "Ayesha Khan",
+  "email": "ayesha@demo.pk",
+  "password": "Pass@123",
+  "role": "customer",
+  "active": true,
+  "phone": "0311-5550001",
+  "cnic": "42101-1234567-1",
+  "address": "House 12, Block A, Gulshan-e-Iqbal",
+  "areaId": 1,
+  "concessionStatus": "approved",
+  "concessionCategory": "women"
+ },
+ {
+  "id": 2,
+  "name": "Bilal Ahmed",
+  "email": "bilal@demo.pk",
+  "password": "Pass@123",
+  "role": "customer",
+  "active": true,
+  "phone": "0321-5550002",
+  "cnic": "42101-7654321-3",
+  "address": "Flat 4, Block C, Gulshan-e-Iqbal",
+  "areaId": 1,
+  "concessionStatus": "none"
+ },
+ {
+  "id": 3,
+  "name": "Hamid Raza",
+  "email": "hamid@demo.pk",
+  "password": "Pass@123",
+  "role": "customer",
+  "active": true,
+  "phone": "0331-5550003",
+  "cnic": "42201-1111111-5",
+  "address": "Block H, North Nazimabad",
+  "areaId": 2,
+  "concessionStatus": "approved",
+  "concessionCategory": "senior"
+ },
+ {
+  "id": 4,
+  "name": "Sara Noor",
+  "email": "sara@demo.pk",
+  "password": "Pass@123",
+  "role": "customer",
+  "active": true,
+  "phone": "0341-5550004",
+  "cnic": "42301-2222222-7",
+  "address": "Clifton Block 2",
+  "areaId": 3,
+  "concessionStatus": "pending"
+ },
+ {
+  "id": 5,
+  "name": "Nadia Hussain",
+  "email": "officer1@demo.pk",
+  "password": "Pass@123",
+  "role": "officer",
+  "active": true,
+  "phone": "0351-5550005",
+  "areaId": 1
+ },
+ {
+  "id": 6,
+  "name": "Imran Shah",
+  "email": "officer2@demo.pk",
+  "password": "Pass@123",
+  "role": "officer",
+  "active": true,
+  "phone": "0361-5550006",
+  "areaId": 2
+ },
+ {
+  "id": 7,
+  "name": "Kashif Mir",
+  "email": "officer3@demo.pk",
+  "password": "Pass@123",
+  "role": "officer",
+  "active": true,
+  "phone": "0371-5550007",
+  "areaId": 3
+ },
+ {
+  "id": 8,
+  "name": "Rashid Ustad",
+  "email": "operator1@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0381-5550008",
+  "shopId": 1
+ },
+ {
+  "id": 9,
+  "name": "Farhan Ali",
+  "email": "operator2@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0391-5550009",
+  "shopId": 2
+ },
+ {
+  "id": 10,
+  "name": "Bismillah Khan",
+  "email": "operator3@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0301-5550010",
+  "shopId": 3
+ },
+ {
+  "id": 11,
+  "name": "Owais Qureshi",
+  "email": "operator4@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0311-5550011",
+  "shopId": 4
+ },
+ {
+  "id": 12,
+  "name": "Sana Iqbal",
+  "email": "operator5@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0321-5550012",
+  "shopId": 5
+ },
+ {
+  "id": 13,
+  "name": "Adnan Sheikh",
+  "email": "operator6@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0331-5550013",
+  "shopId": 6
+ },
+ {
+  "id": 14,
+  "name": "Johar Owner",
+  "email": "operator7@demo.pk",
+  "password": "Pass@123",
+  "role": "operator",
+  "active": true,
+  "phone": "0341-5550014",
+  "shopId": 7
+ },
+ {
+  "id": 15,
+  "name": "Kamran Baig",
+  "email": "tech11@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0351-5550015",
+  "shopId": 1
+ },
+ {
+  "id": 16,
+  "name": "Rashid Mehmood",
+  "email": "tech12@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0361-5550016",
+  "shopId": 1
+ },
+ {
+  "id": 17,
+  "name": "Tariq Javed",
+  "email": "tech21@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0371-5550017",
+  "shopId": 2
+ },
+ {
+  "id": 18,
+  "name": "Adeel Siddiqui",
+  "email": "tech22@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0381-5550018",
+  "shopId": 2
+ },
+ {
+  "id": 19,
+  "name": "Zeeshan Abbas",
+  "email": "tech31@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0391-5550019",
+  "shopId": 3
+ },
+ {
+  "id": 20,
+  "name": "Faisal Raza",
+  "email": "tech41@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0301-5550020",
+  "shopId": 4
+ },
+ {
+  "id": 21,
+  "name": "Waqar Ali",
+  "email": "tech42@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0311-5550021",
+  "shopId": 4
+ },
+ {
+  "id": 22,
+  "name": "Salman Butt",
+  "email": "tech51@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0321-5550022",
+  "shopId": 5
+ },
+ {
+  "id": 23,
+  "name": "Danish Malik",
+  "email": "tech52@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0331-5550023",
+  "shopId": 5
+ },
+ {
+  "id": 24,
+  "name": "Haris Ahmed",
+  "email": "tech61@demo.pk",
+  "password": "Pass@123",
+  "role": "technician",
+  "active": true,
+  "phone": "0341-5550024",
+  "shopId": 6
+ },
+ {
+  "id": 25,
+  "name": "Admin Board",
+  "email": "admin@demo.pk",
+  "password": "Pass@123",
+  "role": "admin",
+  "active": true,
+  "phone": "0351-5550025"
+ }
+]

@@ -1,0 +1,161 @@
+[
+ {
+  "id": 1,
+  "name": "Ustad Rashid Tyre & Puncture Shop",
+  "area": "Main University Road, Gulshan",
+  "areaId": 1,
+  "lat": 24.9245,
+  "lng": 67.095,
+  "phone": "923001112233",
+  "vehicles": [
+   "Bike",
+   "Car",
+   "Rickshaw"
+  ],
+  "services": [
+   "Puncture"
+  ],
+  "is247": true,
+  "open": "00:00",
+  "close": "23:59",
+  "rating": 4.8,
+  "capacity": 25,
+  "status": "Active"
+ },
+ {
+  "id": 2,
+  "name": "Al-Madina Auto & Battery Jumpstart",
+  "area": "Nipa Chowrangi",
+  "areaId": 1,
+  "lat": 24.9178,
+  "lng": 67.0972,
+  "phone": "923002223344",
+  "vehicles": [
+   "Car",
+   "Bike"
+  ],
+  "services": [
+   "Battery",
+   "Engine"
+  ],
+  "is247": true,
+  "open": "00:00",
+  "close": "23:59",
+  "rating": 4.6,
+  "capacity": 20,
+  "status": "Active"
+ },
+ {
+  "id": 3,
+  "name": "Bismillah Bike Repair & Puncture",
+  "area": "Hasan Square",
+  "areaId": 1,
+  "lat": 24.912,
+  "lng": 67.0815,
+  "phone": "923003334455",
+  "vehicles": [
+   "Bike",
+   "Rickshaw"
+  ],
+  "services": [
+   "Puncture",
+   "Engine"
+  ],
+  "is247": false,
+  "open": "08:00",
+  "close": "22:00",
+  "rating": 4.5,
+  "capacity": 15,
+  "status": "Active"
+ },
+ {
+  "id": 4,
+  "name": "Nazimabad Quick Tyre & Tubeless Center",
+  "area": "North Nazimabad Block H",
+  "areaId": 2,
+  "lat": 24.9385,
+  "lng": 67.0422,
+  "phone": "923005556677",
+  "vehicles": [
+   "Bike",
+   "Car"
+  ],
+  "services": [
+   "Puncture",
+   "Battery"
+  ],
+  "is247": true,
+  "open": "00:00",
+  "close": "23:59",
+  "rating": 4.7,
+  "capacity": 20,
+  "status": "Active"
+ },
+ {
+  "id": 5,
+  "name": "Highway 24/7 Car Recovery & Mechanic",
+  "area": "Shahrah-e-Faisal (Nursery)",
+  "areaId": 3,
+  "lat": 24.863,
+  "lng": 67.075,
+  "phone": "923004445566",
+  "vehicles": [
+   "Car"
+  ],
+  "services": [
+   "Puncture",
+   "Battery",
+   "Engine"
+  ],
+  "is247": true,
+  "open": "00:00",
+  "close": "23:59",
+  "rating": 4.9,
+  "capacity": 15,
+  "status": "Active"
+ },
+ {
+  "id": 6,
+  "name": "Clifton Sea-View Roadside Assistance",
+  "area": "Clifton Block 4",
+  "areaId": 3,
+  "lat": 24.8138,
+  "lng": 67.03,
+  "phone": "923006667788",
+  "vehicles": [
+   "Car"
+  ],
+  "services": [
+   "Puncture",
+   "Battery",
+   "Engine"
+  ],
+  "is247": true,
+  "open": "00:00",
+  "close": "23:59",
+  "rating": 4.9,
+  "capacity": 15,
+  "status": "Active"
+ },
+ {
+  "id": 7,
+  "name": "Johar Quick Fix Garage",
+  "area": "Johar Chowrangi",
+  "areaId": 1,
+  "lat": 24.917,
+  "lng": 67.129,
+  "phone": "923007778899",
+  "vehicles": [
+   "Bike"
+  ],
+  "services": [
+   "Puncture"
+  ],
+  "is247": false,
+  "open": "09:00",
+  "close": "21:00",
+  "rating": 0,
+  "capacity": 10,
+  "status": "Pending"
+ }
+]

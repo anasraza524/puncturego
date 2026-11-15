@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Find nearest mechanic · PunctureGo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link href="css/style.css" rel="stylesheet"></head>
+<body >
+<a class="visually-hidden-focusable position-absolute p-2 bg-white" href="#app">Skip to content</a>
+<header id="nav"><nav class="navbar app-nav sticky-top"><div class="container-xl px-3"><a class="navbar-brand fw-bold text-white" href="index.html"><i class="bi bi-wrench-adjustable-circle-fill"></i> Puncture<span class="brand-go">Go</span></a><div class="ms-auto d-flex gap-2 align-items-center" id="navAuth"><button class="btn btn-sm btn-outline-light" id="themeBtn" aria-label="Toggle dark mode"><i class="bi bi-circle-half"></i></button><a class="btn btn-sm btn-outline-light d-none d-sm-inline" href="login.html">Login</a><a class="btn btn-sm btn-outline-light d-none d-sm-inline" href="register.html">Sign up</a><a class="btn btn-sm btn-primary" href="register-shop.html"><i class="bi bi-plus-lg"></i> Register Shop</a></div></div></nav></header>
+<main id="app">
+<section class="hero"><div class="container-xl px-3"><div class="text-center mb-4"><h1 class="display-6">Stuck on the road? Find the nearest mechanic.</h1><p class="lead opacity-75 mb-0">GPS detection, verified shops, and your live location sent straight to WhatsApp.</p></div>
+<div class="row g-2 justify-content-center" id="controls">
+<div class="col-12 col-md-4 col-lg-3 d-grid"><button class="btn btn-primary btn-lg" id="gpsBtn"><i class="bi bi-crosshair"></i> Detect my live location</button></div>
+<div class="col-6 col-md-4 col-lg-2"><label class="visually-hidden" for="fRadius">Distance</label><select class="form-select form-select-lg" id="fRadius"><option value="">Any distance</option><option value="3">Within 3 km</option><option value="5">Within 5 km</option><option value="10">Within 10 km</option></select></div>
+<div class="col-6 col-md-4 col-lg-2"><label class="visually-hidden" for="fVehicle">Vehicle</label><select class="form-select form-select-lg" id="fVehicle"><option value="">All vehicles</option></select></div>
+<div class="col-6 col-md-4 col-lg-2"><label class="visually-hidden" for="fService">Issue</label><select class="form-select form-select-lg" id="fService"><option value="">All issues</option></select></div>
+<div class="col-6 col-md-4 col-lg-2"><label class="visually-hidden" for="fSort">Sort</label><select class="form-select form-select-lg" id="fSort"><option value="dist">Nearest first</option><option value="rating">Top rated</option><option value="price">Lowest price</option></select></div>
+<div class="col-12 col-md-8 col-lg-6"><label class="visually-hidden" for="fSearch">Search</label><input class="form-control form-control-lg" id="fSearch" type="search" placeholder="Search shop or area…"></div>
+<div class="col-12 col-md-4 col-lg-3 d-flex align-items-center"><div class="form-check form-switch fs-6"><input class="form-check-input" type="checkbox" id="fOpen"><label class="form-check-label" for="fOpen">Open now only</label></div></div></div>
+<div class="row g-3 mt-3" id="stats" aria-live="polite"></div></div></section>
+<section class="container-xl px-3 py-3"><div class="d-flex flex-wrap justify-content-between gap-2 small mb-2"><span id="locStatus" role="status">📌 Default location set (Gulshan-e-Iqbal, Karachi).</span><strong id="count"></strong></div>
+<div class="alert alert-light border small py-2"><i class="bi bi-lightbulb"></i> Tip: tap <strong>Detect my live location</strong> on mobile for exact GPS, or drag the red pin / tap the map to adjust.</div>
+<div class="row g-3"><div class="col-lg-5"><div class="map-sticky"><div id="map" class="map-box tall" role="application" aria-label="Map of nearby mechanics"></div></div></div><div class="col-lg-7"><div class="d-grid gap-3" id="list" aria-live="polite"></div></div></div></section></main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/app.js"></script>
+<script src="js/finder.js"></script>
+</body></html>

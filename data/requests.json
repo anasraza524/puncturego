@@ -1,0 +1,410 @@
+[
+ {
+  "id": "RQ-1001",
+  "customerId": 1,
+  "areaId": 1,
+  "shopId": 1,
+  "vehicle": "Car",
+  "vehicleNo": "KHI-4521",
+  "service": "Puncture",
+  "type": "concession",
+  "lat": 24.9285,
+  "lng": 67.098,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": -2,
+  "time": "10:15",
+  "amount": 125,
+  "payment": "Paid",
+  "status": "Confirmed",
+  "priority": true,
+  "unitId": 2,
+  "techId": 15,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Pending Approval",
+    "at": "2026-11-10 10:00",
+    "by": "Ayesha Khan",
+    "note": "Concession request"
+   },
+   {
+    "status": "Approved",
+    "at": "2026-11-11 11:10",
+    "by": "Nadia Hussain",
+    "note": "Verified"
+   },
+   {
+    "status": "Assigned",
+    "at": "2026-11-12 12:20",
+    "by": "Rashid Ustad",
+    "note": "Technician Kamran Baig"
+   },
+   {
+    "status": "Completed",
+    "at": "2026-11-13 13:30",
+    "by": "Kamran Baig",
+    "note": ""
+   },
+   {
+    "status": "Confirmed",
+    "at": "2026-11-14 14:40",
+    "by": "Ayesha Khan",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "RQ-1002",
+  "customerId": 1,
+  "areaId": 1,
+  "shopId": 1,
+  "vehicle": "Bike",
+  "vehicleNo": "KHI-7788",
+  "service": "Puncture",
+  "type": "concession",
+  "lat": 24.9285,
+  "lng": 67.098,
+  "landmark": "Opposite Aladdin Park",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "09:30",
+  "amount": 50,
+  "payment": "Unpaid",
+  "status": "Dispatched",
+  "priority": true,
+  "unitId": 1,
+  "techId": 15,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Pending Approval",
+    "at": "2026-11-10 10:00",
+    "by": "Ayesha Khan",
+    "note": ""
+   },
+   {
+    "status": "Approved",
+    "at": "2026-11-11 11:10",
+    "by": "Nadia Hussain",
+    "note": "Verified"
+   },
+   {
+    "status": "Assigned",
+    "at": "2026-11-12 12:20",
+    "by": "Rashid Ustad",
+    "note": "Technician Kamran Baig"
+   },
+   {
+    "status": "Dispatched",
+    "at": "2026-11-13 13:30",
+    "by": "Rashid Ustad",
+    "note": "Team left the shop"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1003",
+  "customerId": 2,
+  "areaId": 1,
+  "shopId": 2,
+  "vehicle": "Car",
+  "vehicleNo": "ABC-321",
+  "service": "Battery",
+  "type": "standard",
+  "lat": 24.9218,
+  "lng": 67.1002,
+  "landmark": "Nipa flyover service road",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "11:00",
+  "amount": 400,
+  "payment": "Unpaid",
+  "status": "Approved",
+  "priority": false,
+  "unitId": null,
+  "techId": null,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Approved",
+    "at": "2026-11-10 10:00",
+    "by": "System",
+    "note": "Standard request auto-approved"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1004",
+  "customerId": 1,
+  "areaId": 1,
+  "shopId": 2,
+  "vehicle": "Bike",
+  "vehicleNo": "KHI-7788",
+  "service": "Engine",
+  "type": "concession",
+  "lat": 24.9218,
+  "lng": 67.1002,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "12:10",
+  "amount": 250,
+  "payment": "Unpaid",
+  "status": "Pending Approval",
+  "priority": true,
+  "unitId": null,
+  "techId": null,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Pending Approval",
+    "at": "2026-11-10 10:00",
+    "by": "Ayesha Khan",
+    "note": "Concession request"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1005",
+  "customerId": 2,
+  "areaId": 2,
+  "shopId": 4,
+  "vehicle": "Bike",
+  "vehicleNo": "KAB-909",
+  "service": "Puncture",
+  "type": "standard",
+  "lat": 24.9425,
+  "lng": 67.0452,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": -1,
+  "time": "18:45",
+  "amount": 100,
+  "payment": "Unpaid",
+  "status": "Completed",
+  "priority": false,
+  "unitId": 8,
+  "techId": 20,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Approved",
+    "at": "2026-11-10 10:00",
+    "by": "System",
+    "note": ""
+   },
+   {
+    "status": "Assigned",
+    "at": "2026-11-11 11:10",
+    "by": "Owais Qureshi",
+    "note": "Technician Faisal Raza"
+   },
+   {
+    "status": "Completed",
+    "at": "2026-11-12 12:20",
+    "by": "Faisal Raza",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "RQ-1006",
+  "customerId": 3,
+  "areaId": 2,
+  "shopId": 4,
+  "vehicle": "Car",
+  "vehicleNo": "KHI-1234",
+  "service": "Battery",
+  "type": "concession",
+  "lat": 24.9425,
+  "lng": 67.0452,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "08:20",
+  "amount": 200,
+  "payment": "Unpaid",
+  "status": "Disputed",
+  "priority": false,
+  "unitId": 9,
+  "techId": 21,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Pending Approval",
+    "at": "2026-11-10 10:00",
+    "by": "Hamid Raza",
+    "note": ""
+   },
+   {
+    "status": "Approved",
+    "at": "2026-11-11 11:10",
+    "by": "Imran Shah",
+    "note": "Senior verified"
+   },
+   {
+    "status": "Completed",
+    "at": "2026-11-12 12:20",
+    "by": "Waqar Ali",
+    "note": ""
+   },
+   {
+    "status": "Disputed",
+    "at": "2026-11-13 13:30",
+    "by": "Hamid Raza",
+    "note": "Car still would not start"
+   }
+  ],
+  "disputeReason": "Battery was jump-started but the car stopped again within minutes."
+ },
+ {
+  "id": "RQ-1007",
+  "customerId": 4,
+  "areaId": 3,
+  "shopId": 5,
+  "vehicle": "Car",
+  "vehicleNo": "KLM-555",
+  "service": "Puncture",
+  "type": "standard",
+  "lat": 24.867,
+  "lng": 67.078,
+  "landmark": "Nursery bus stop",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "13:00",
+  "amount": 250,
+  "payment": "Unpaid",
+  "status": "Assigned",
+  "priority": false,
+  "unitId": 10,
+  "techId": 22,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Approved",
+    "at": "2026-11-10 10:00",
+    "by": "System",
+    "note": ""
+   },
+   {
+    "status": "Assigned",
+    "at": "2026-11-11 11:10",
+    "by": "Sana Iqbal",
+    "note": "Technician Salman Butt"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1008",
+  "customerId": 2,
+  "areaId": 1,
+  "shopId": 1,
+  "vehicle": "Rickshaw",
+  "vehicleNo": "KHI-0101",
+  "service": "Puncture",
+  "type": "standard",
+  "lat": 24.9285,
+  "lng": 67.098,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": -3,
+  "time": "14:00",
+  "amount": 200,
+  "payment": "Unpaid",
+  "status": "Cancelled",
+  "priority": false,
+  "unitId": null,
+  "techId": null,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Approved",
+    "at": "2026-11-10 10:00",
+    "by": "System",
+    "note": ""
+   },
+   {
+    "status": "Cancelled",
+    "at": "2026-11-11 11:10",
+    "by": "Bilal Ahmed",
+    "note": "Customer cancelled"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1009",
+  "customerId": 3,
+  "areaId": 3,
+  "shopId": 6,
+  "vehicle": "Car",
+  "vehicleNo": "KHI-1234",
+  "service": "Engine",
+  "type": "concession",
+  "lat": 24.8178,
+  "lng": 67.033,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "15:00",
+  "amount": 750,
+  "payment": "Unpaid",
+  "status": "Pending Approval",
+  "priority": false,
+  "unitId": null,
+  "techId": null,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Pending Approval",
+    "at": "2026-11-10 10:00",
+    "by": "Hamid Raza",
+    "note": "Concession request"
+   }
+  ]
+ },
+ {
+  "id": "RQ-1010",
+  "customerId": 2,
+  "areaId": 1,
+  "shopId": 3,
+  "vehicle": "Bike",
+  "vehicleNo": "KHI-2020",
+  "service": "Engine",
+  "type": "standard",
+  "lat": 24.916,
+  "lng": 67.0845,
+  "landmark": "Near the main road signal",
+  "notes": "",
+  "dayOffset": 0,
+  "time": "16:30",
+  "amount": 500,
+  "payment": "Unpaid",
+  "status": "Failed",
+  "priority": false,
+  "unitId": 6,
+  "techId": 19,
+  "createdAt": "2026-11-10 09:00",
+  "history": [
+   {
+    "status": "Approved",
+    "at": "2026-11-10 10:00",
+    "by": "System",
+    "note": ""
+   },
+   {
+    "status": "Assigned",
+    "at": "2026-11-11 11:10",
+    "by": "Bismillah Khan",
+    "note": "Technician Zeeshan Abbas"
+   },
+   {
+    "status": "Failed",
+    "at": "2026-11-12 12:20",
+    "by": "Zeeshan Abbas",
+    "note": "Customer unreachable"
+   }
+  ],
+  "failReason": "Customer unreachable"
+ }
+]

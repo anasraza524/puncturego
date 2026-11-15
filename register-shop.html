@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Register shop · PunctureGo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link href="css/style.css" rel="stylesheet"></head>
+<body data-page="shop">
+<a class="visually-hidden-focusable position-absolute p-2 bg-white" href="#app">Skip to content</a>
+<header id="nav"><nav class="navbar app-nav sticky-top"><div class="container-xl px-3"><a class="navbar-brand fw-bold text-white" href="index.html"><i class="bi bi-wrench-adjustable-circle-fill"></i> Puncture<span class="brand-go">Go</span></a><div class="ms-auto d-flex gap-2 align-items-center" id="navAuth"><button class="btn btn-sm btn-outline-light" id="themeBtn" aria-label="Toggle dark mode"><i class="bi bi-circle-half"></i></button><a class="btn btn-sm btn-outline-light d-none d-sm-inline" href="login.html">Login</a><a class="btn btn-sm btn-outline-light d-none d-sm-inline" href="register.html">Sign up</a><a class="btn btn-sm btn-primary" href="register-shop.html"><i class="bi bi-plus-lg"></i> Register Shop</a></div></div></nav></header>
+<main id="app" class="container-xl px-3 py-4"><div class="row justify-content-center"><div class="col-xl-10"><div class="card card-soft"><div class="card-body p-4">
+<h1 class="h3 mb-1">Register your mechanic shop</h1><p class="text-muted">Your shop appears on the map after the Area Verifier approves it. You get an operator account to manage requests.</p>
+<form id="shopForm" novalidate class="row g-4"><div class="col-lg-6"><div class="row g-3">
+<div class="col-12"><label class="form-label" for="owner">Owner name</label><input class="form-control" id="owner" name="owner" autocomplete="name"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="email">Email (login)</label><input class="form-control" id="email" name="email" type="email" autocomplete="email"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="phone">WhatsApp number</label><input class="form-control" id="phone" name="phone" inputmode="numeric" placeholder="923001234567"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="password">Password</label><input class="form-control" id="password" name="password" type="password" autocomplete="new-password"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="confirm">Confirm password</label><input class="form-control" id="confirm" name="confirm" type="password" autocomplete="new-password"><div class="invalid-feedback"></div></div>
+<div class="col-12"><label class="form-label" for="shopName">Shop name</label><input class="form-control" id="shopName" name="shopName" placeholder="e.g. Bilal Auto &amp; Puncture"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="area">Area</label><select class="form-select" id="area" name="area"></select><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="street">Street / landmark</label><input class="form-control" id="street" name="street"><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="vehicles">Vehicles handled (hold Ctrl/Cmd for many)</label><select class="form-select" id="vehicles" name="vehicles" multiple size="3"></select><div class="invalid-feedback"></div></div>
+<div class="col-md-6"><label class="form-label" for="services">Services offered</label><select class="form-select" id="services" name="services" multiple size="3"></select><div class="invalid-feedback"></div></div>
+<div class="col-md-4"><label class="form-label" for="is247">Hours</label><select class="form-select" id="is247" name="is247"><option value="true">Open 24/7</option><option value="false">Fixed hours</option></select></div>
+<div class="col-md-4"><label class="form-label" for="open">Opens</label><input class="form-control" id="open" name="open" type="time" value="09:00"><div class="invalid-feedback"></div></div>
+<div class="col-md-4"><label class="form-label" for="close">Closes</label><input class="form-control" id="close" name="close" type="time" value="21:00"><div class="invalid-feedback"></div></div>
+<div class="col-12"><label class="form-label" for="capacity">Max jobs per day</label><input class="form-control" id="capacity" name="capacity" type="number" min="1" max="200" value="15"><div class="invalid-feedback"></div></div></div></div>
+<div class="col-lg-6"><label class="form-label" id="pinLbl">Shop location – drag the pin or tap the map</label><div id="map" class="map-box" role="application" aria-labelledby="pinLbl"></div><input type="hidden" name="pin" id="pin"><div class="invalid-feedback"></div>
+<button type="button" class="btn btn-outline-primary mt-2" id="gpsBtn"><i class="bi bi-crosshair"></i> Use my GPS</button><div class="small text-muted mt-2" id="pinTxt" role="status">Pin not set yet.</div></div>
+<div class="col-12 d-grid d-sm-block"><button class="btn btn-primary btn-lg px-5" type="submit">Submit for verification</button></div></form></div></div></div></div></main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/app.js"></script>
+<script src="js/auth.js"></script>
+</body></html>

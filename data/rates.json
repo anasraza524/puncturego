@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "service": "Puncture",
+  "vehicle": "Bike",
+  "standard": 100,
+  "concession": 50
+ },
+ {
+  "id": 2,
+  "service": "Puncture",
+  "vehicle": "Car",
+  "standard": 250,
+  "concession": 125
+ },
+ {
+  "id": 3,
+  "service": "Puncture",
+  "vehicle": "Rickshaw",
+  "standard": 200,
+  "concession": 100
+ },
+ {
+  "id": 4,
+  "service": "Battery",
+  "vehicle": "Bike",
+  "standard": 300,
+  "concession": 150
+ },
+ {
+  "id": 5,
+  "service": "Battery",
+  "vehicle": "Car",
+  "standard": 400,
+  "concession": 200
+ },
+ {
+  "id": 6,
+  "service": "Battery",
+  "vehicle": "Rickshaw",
+  "standard": 350,
+  "concession": 175
+ },
+ {
+  "id": 7,
+  "service": "Engine",
+  "vehicle": "Bike",
+  "standard": 500,
+  "concession": 250
+ },
+ {
+  "id": 8,
+  "service": "Engine",
+  "vehicle": "Car",
+  "standard": 1500,
+  "concession": 750
+ },
+ {
+  "id": 9,
+  "service": "Engine",
+  "vehicle": "Rickshaw",
+  "standard": 800,
+  "concession": 400
+ }
+]
